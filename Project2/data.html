@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Real Estate</title>
+
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
+
+    <!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+
+  </head>
+
+  <body>
+    <!-- Start of navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid navbar-custom">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="row">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle Navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="col-xs-9 phone-nav">
+              <a class="navbar-brand" href="index.html" id="logo">Real Estate</a>
+            </div>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right navbar-right-custom">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                 <li><a href="analysis/temp.html">Max Temperature</a></li>
+                  <li><a href="analysis/humidity.html">Humidity</a></li>
+                  <li><a href="analysis/cloudiness.html">Cloudiness</a></li>
+                  <li><a href="analysis/wind.html">Wind Speed</a></li>
+                </ul>
+              </li>
+              <li><a href="comparison.html">Comparison</a></li>
+              <li><a href="data.html">Data</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div>
+      </div><!-- /.container-fluid -->
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Start of container -->
+    <div class="container">
+      <article class="description-content row">
+        <div class="col-xs-12">
+          <h1 class="description-header">Data</h1>
+          <hr class="description-hr"/>
+          <p class="description-text">The following table includes all of the data used for plotting during this project.</p>
+          <div class="table-responsive">
+            <table class="table table-striped table-hover">
+              <thead>
+                <tr><th>City</th><th>Rank</th><th>State</th><th>Growth From 2000 to 2013</th><th>Population</th><th>Coordinates</th></tr>
+              </thead>
+              <tbody>
+                  <tr><td align="right">South San Francisco</td><td>522</td><td align="right">California</td><td align="right">9.1</td><td align="right">66174</td><td align="right">37.654656, -122.4077498</td></tr>
+<tr><td align="right">Aliso Viejo</td><td>741</td><td align="right">California</td><td align="right">25.4</td><td align="right">50175</td><td align="right">33.5676842, -117.7256083</td></tr>
+<tr><td align="right">Rapid City</td><td>479</td><td align="right">South Dakota</td><td align="right">17.9</td><td align="right">70812</td><td align="right">44.0805434, -103.2310149</td></tr>
+<tr><td align="right">Coon Rapids</td><td>563</td><td align="right">Minnesota</td><td align="right">0.6</td><td align="right">62103</td><td align="right">45.1732394, -93.3030063</td></tr>
+<tr><td align="right">Malden</td><td>585</td><td align="right">Massachusetts</td><td align="right">7.4</td><td align="right">60509</td><td align="right">42.4250964, -71.066163</td></tr>
+<tr><td align="right">Noblesville</td><td>644</td><td align="right">Indiana</td><td align="right">88.1</td><td align="right">56540</td><td align="right">40.0455917, -86.0085955</td></tr>
+<tr><td align="right">Delray Beach</td><td>543</td><td align="right">Florida</td><td align="right">6.1</td><td align="right">64072</td><td align="right">26.4614625, -80.0728201</td></tr>
+<tr><td align="right">Wellington</td><td>588</td><td align="right">Florida</td><td align="right">55</td><td align="right">60202</td><td align="right">26.6617635, -80.2683571</td></tr>
+<tr><td align="right">Florissant</td><td>703</td><td align="right">Missouri</td><td align="right">-2.8</td><td align="right">52363</td><td align="right">38.789217, -90.322614</td></tr>
+<tr><td align="right">Youngstown</td><td>532</td><td align="right">Ohio</td><td align="right">-20.2</td><td align="right">65184</td><td align="right">41.0997803, -80.6495194</td></tr>
+<tr><td align="right">Newport Beach</td><td>356</td><td align="right">California</td><td align="right">10.4</td><td align="right">87273</td><td align="right">33.6189101, -117.9289469</td></tr>
+<tr><td align="right">Bloomington</td><td>412</td><td align="right">Illinois</td><td align="right">20.1</td><td align="right">78902</td><td align="right">40.4842027, -88.9936873</td></tr>
+<tr><td align="right">Menifee</td><td>384</td><td align="right">California</td><td align="right">95</td><td align="right">83447</td><td align="right">33.6971468, -117.185294</td></tr>
+<tr><td align="right">Lynchburg</td><td>423</td><td align="right">Virginia</td><td align="right">19.5</td><td align="right">78014</td><td align="right">37.4137536, -79.1422464</td></tr>
+<tr><td align="right">Loveland</td><td>472</td><td align="right">Colorado</td><td align="right">37.4</td><td align="right">71334</td><td align="right">40.3977612, -105.0749801</td></tr>
+<tr><td align="right">St. Joseph</td><td>429</td><td align="right">Missouri</td><td align="right">4.1</td><td align="right">77147</td><td align="right">39.7674578, -94.846681</td></tr>
+<tr><td align="right">Folsom</td><td>458</td><td align="right">California</td><td align="right">38.6</td><td align="right">73098</td><td align="right">38.6779591, -121.1760583</td></tr>
+<tr><td align="right">Decatur</td><td>448</td><td align="right">Illinois</td><td align="right">-8.7</td><td align="right">74710</td><td align="right">39.8403147, -88.9548001</td></tr>
+<tr><td align="right">Napa</td><td>409</td><td align="right">California</td><td align="right">8.4</td><td align="right">79068</td><td align="right">38.2975381, -122.286865</td></tr>
+<tr><td align="right">Allen</td><td>328</td><td align="right">Texas</td><td align="right">104</td><td align="right">92020</td><td align="right">33.1031744, -96.6705503</td></tr>
+<tr><td align="right">Goose Creek</td><td>927</td><td align="right">South Carolina</td><td align="right">26.1</td><td align="right">39823</td><td align="right">32.9810059, -80.0325867</td></tr>
+<tr><td align="right">Carpentersville</td><td>965</td><td align="right">Illinois</td><td align="right">22.8</td><td align="right">38241</td><td align="right">42.1211364, -88.2578582</td></tr>
+<tr><td align="right">Bell Gardens</td><td>862</td><td align="right">California</td><td align="right">-2.7</td><td align="right">42889</td><td align="right">33.9652918, -118.1514588</td></tr>
+<tr><td align="right">Woonsocket</td><td>890</td><td align="right">Rhode Island</td><td align="right">-5.2</td><td align="right">41026</td><td align="right">42.0028761, -71.5147839</td></tr>
+<tr><td align="right">Maplewood</td><td>930</td><td align="right">Minnesota</td><td align="right">12.3</td><td align="right">39765</td><td align="right">44.9530215, -92.9952153</td></tr>
+<tr><td align="right">Annapolis</td><td>954</td><td align="right">Maryland</td><td align="right">7.6</td><td align="right">38722</td><td align="right">38.9784453, -76.4921829</td></tr>
+<tr><td align="right">Madison</td><td>811</td><td align="right">Alabama</td><td align="right">53.7</td><td align="right">45799</td><td align="right">34.6992579, -86.7483318</td></tr>
+<tr><td align="right">Riverton</td><td>897</td><td align="right">Utah</td><td align="right">61.6</td><td align="right">40921</td><td align="right">40.521893, -111.9391023</td></tr>
+<tr><td align="right">San Francisco</td><td>14</td><td align="right">California</td><td align="right">7.7</td><td align="right">837442</td><td align="right">37.7749295, -122.4194155</td></tr>
+<tr><td align="right">Providence</td><td>134</td><td align="right">Rhode Island</td><td align="right">2.3</td><td align="right">177994</td><td align="right">41.8239891, -71.4128343</td></tr>
+<tr><td align="right">San Mateo</td><td>286</td><td align="right">California</td><td align="right">9</td><td align="right">101128</td><td align="right">37.5629917, -122.3255254</td></tr>
+<tr><td align="right">Corpus Christi</td><td>60</td><td align="right">Texas</td><td align="right">14.1</td><td align="right">316381</td><td align="right">27.8005828, -97.396381</td></tr>
+<tr><td align="right">Yakima</td><td>322</td><td align="right">Washington</td><td align="right">11.7</td><td align="right">93257</td><td align="right">46.6020711, -120.5058987</td></tr>
+<tr><td align="right">Miramar</td><td>196</td><td align="right">Florida</td><td align="right">74.7</td><td align="right">130288</td><td align="right">25.9860762, -80.3035602</td></tr>
+<tr><td align="right">Orlando</td><td>77</td><td align="right">Florida</td><td align="right">31.2</td><td align="right">255483</td><td align="right">28.5383355, -81.3792365</td></tr>
+<tr><td align="right">Tucson</td><td>33</td><td align="right">Arizona</td><td align="right">7.5</td><td align="right">526116</td><td align="right">32.2217429, -110.926479</td></tr>
+<tr><td align="right">Dayton</td><td>179</td><td align="right">Ohio</td><td align="right">-13.5</td><td align="right">143355</td><td align="right">39.7589478, -84.1916069</td></tr>
+<tr><td align="right">Chapel Hill</td><td>598</td><td align="right">North Carolina</td><td align="right">24.1</td><td align="right">59635</td><td align="right">35.9131996, -79.0558445</td></tr>
+<tr><td align="right">Redondo Beach</td><td>504</td><td align="right">California</td><td align="right">6.7</td><td align="right">67815</td><td align="right">33.8491816, -118.3884078</td></tr>
+<tr><td align="right">Gulfport</td><td>476</td><td align="right">Mississippi</td><td align="right">-0.6</td><td align="right">71012</td><td align="right">30.3674198, -89.0928155</td></tr>
+<tr><td align="right">Schenectady</td><td>525</td><td align="right">New York</td><td align="right">6.7</td><td align="right">65902</td><td align="right">42.8142432, -73.9395687</td></tr>
+<tr><td align="right">Plymouth</td><td>453</td><td align="right">Minnesota</td><td align="right">12</td><td align="right">73987</td><td align="right">45.0105194, -93.4555093</td></tr>
+<tr><td align="right">Tracy</td><td>371</td><td align="right">California</td><td align="right">45.9</td><td align="right">84691</td><td align="right">37.7396513, -121.4252227</td></tr>
+<tr><td align="right">Franklin</td><td>494</td><td align="right">Tennessee</td><td align="right">48.5</td><td align="right">68886</td><td align="right">35.9250637, -86.8688899</td></tr>
+<tr><td align="right">Medford</td><td>425</td><td align="right">Oregon</td><td align="right">17.1</td><td align="right">77677</td><td align="right">42.3265152, -122.8755949</td></tr>
+<tr><td align="right">Bowie</td><td>637</td><td align="right">Maryland</td><td align="right">8.6</td><td align="right">56759</td><td align="right">39.0067768, -76.7791365</td></tr>
+<tr><td align="right">Casper</td><td>599</td><td align="right">Wyoming</td><td align="right">19.9</td><td align="right">59628</td><td align="right">42.866632, -106.313081</td></tr>
+<tr><td align="right">Prescott Valley</td><td>929</td><td align="right">Arizona</td><td align="right">62.9</td><td align="right">39791</td><td align="right">34.6100243, -112.315721</td></tr>
+<tr><td align="right">Commerce City</td><td>748</td><td align="right">Colorado</td><td align="right">135.4</td><td align="right">49799</td><td align="right">39.8083196, -104.9338675</td></tr>
+<tr><td align="right">Bullhead City</td><td>941</td><td align="right">Arizona</td><td align="right">15.9</td><td align="right">39383</td><td align="right">35.1359386, -114.5285981</td></tr>
+<tr><td align="right">Lawrence</td><td>794</td><td align="right">Indiana</td><td align="right">20.5</td><td align="right">47135</td><td align="right">39.8386516, -86.0252612</td></tr>
+<tr><td align="right">Enid</td><td>727</td><td align="right">Oklahoma</td><td align="right">8.1</td><td align="right">50725</td><td align="right">36.3955891, -97.8783911</td></tr>
+<tr><td align="right">Bedford</td><td>771</td><td align="right">Texas</td><td align="right">2.9</td><td align="right">48592</td><td align="right">32.844017, -97.1430671</td></tr>
+<tr><td align="right">Long Beach</td><td>36</td><td align="right">California</td><td align="right">1.5</td><td align="right">469428</td><td align="right">33.7700504, -118.1937395</td></tr>
+<tr><td align="right">Murfreesboro</td><td>228</td><td align="right">Tennessee</td><td align="right">65.1</td><td align="right">117044</td><td align="right">35.8456213, -86.39027</td></tr>
+<tr><td align="right">San Jose</td><td>10</td><td align="right">California</td><td align="right">10.5</td><td align="right">998537</td><td align="right">37.3382082, -121.8863286</td></tr>
+<tr><td align="right">Fontana</td><td>109</td><td align="right">California</td><td align="right">38.3</td><td align="right">203003</td><td align="right">34.0922335, -117.435048</td></tr>
+<tr><td align="right">South Bend</td><td>288</td><td align="right">Indiana</td><td align="right">-6.8</td><td align="right">100886</td><td align="right">41.6763545, -86.2519898</td></tr>
+<tr><td align="right">Aurora</td><td>55</td><td align="right">Colorado</td><td align="right">24.4</td><td align="right">345803</td><td align="right">39.7294319, -104.8319195</td></tr>
+<tr><td align="right">Edmond</td><td>359</td><td align="right">Oklahoma</td><td align="right">26.9</td><td align="right">87004</td><td align="right">35.6528323, -97.4780954</td></tr>
+<tr><td align="right">Mobile</td><td>122</td><td align="right">Alabama</td><td align="right">-1.9</td><td align="right">194899</td><td align="right">30.6953657, -88.0398912</td></tr>
+<tr><td align="right">Midland</td><td>215</td><td align="right">Texas</td><td align="right">30.4</td><td align="right">123933</td><td align="right">31.9973456, -102.0779146</td></tr>
+<tr><td align="right">Springfield</td><td>158</td><td align="right">Massachusetts</td><td align="right">1.1</td><td align="right">153703</td><td align="right">42.1014831, -72.589811</td></tr>
+<tr><td align="right">Fort Collins</td><td>160</td><td align="right">Colorado</td><td align="right">26.6</td><td align="right">152061</td><td align="right">40.5852602, -105.084423</td></tr>
+<tr><td align="right">Little Rock</td><td>118</td><td align="right">Arkansas</td><td align="right">7.6</td><td align="right">197357</td><td align="right">34.7464809, -92.2895948</td></tr>
+<tr><td align="right">Denver</td><td>22</td><td align="right">Colorado</td><td align="right">16.7</td><td align="right">649495</td><td align="right">39.7392358, -104.990251</td></tr>
+<tr><td align="right">Hialeah</td><td>89</td><td align="right">Florida</td><td align="right">3.2</td><td align="right">233394</td><td align="right">25.8575963, -80.2781057</td></tr>
+<tr><td align="right">New York</td><td>1</td><td align="right">New York</td><td align="right">4.8</td><td align="right">8405837</td><td align="right">40.7127837, -74.0059413</td></tr>
+<tr><td align="right">Des Moines</td><td>104</td><td align="right">Iowa</td><td align="right">3.9</td><td align="right">207510</td><td align="right">41.6005448, -93.6091064</td></tr>
+<tr><td align="right">El Paso</td><td>19</td><td align="right">Texas</td><td align="right">19.4</td><td align="right">674433</td><td align="right">31.7775757, -106.4424559</td></tr>
+<tr><td align="right">Houston</td><td>4</td><td align="right">Texas</td><td align="right">11</td><td align="right">2195914</td><td align="right">29.7604267, -95.3698028</td></tr>
+<tr><td align="right">Wilmington</td><td>240</td><td align="right">North Carolina</td><td align="right">24.8</td><td align="right">112067</td><td align="right">34.2257255, -77.9447102</td></tr>
+<tr><td align="right">New Bedford</td><td>315</td><td align="right">Massachusetts</td><td align="right">1.2</td><td align="right">95078</td><td align="right">41.6362152, -70.934205</td></tr>
+<tr><td align="right">Las Cruces</td><td>285</td><td align="right">New Mexico</td><td align="right">37.6</td><td align="right">101324</td><td align="right">32.3199396, -106.7636538</td></tr>
+<tr><td align="right">Simi Valley</td><td>210</td><td align="right">California</td><td align="right">12.6</td><td align="right">126181</td><td align="right">34.2694474, -118.781482</td></tr>
+<tr><td align="right">Temecula</td><td>266</td><td align="right">California</td><td align="right">55.4</td><td align="right">106780</td><td align="right">33.4936391, -117.1483648</td></tr>
+<tr><td align="right">Ann Arbor</td><td>229</td><td align="right">Michigan</td><td align="right">2</td><td align="right">117025</td><td align="right">42.2808256, -83.7430378</td></tr>
+<tr><td align="right">Round Rock</td><td>251</td><td align="right">Texas</td><td align="right">81</td><td align="right">109821</td><td align="right">30.5082551, -97.678896</td></tr>
+<tr><td align="right">Topeka</td><td>202</td><td align="right">Kansas</td><td align="right">3.4</td><td align="right">127679</td><td align="right">39.0558235, -95.6890185</td></tr>
+<tr><td align="right">Beaumont</td><td>226</td><td align="right">Texas</td><td align="right">3.7</td><td align="right">117796</td><td align="right">30.080174, -94.1265562</td></tr>
+<tr><td align="right">Frisco</td><td>186</td><td align="right">Texas</td><td align="right">287.7</td><td align="right">136791</td><td align="right">33.1506744, -96.8236116</td></tr>
+<tr><td align="right">Haverhill</td><td>564</td><td align="right">Massachusetts</td><td align="right">5</td><td align="right">62088</td><td align="right">42.7762015, -71.0772796</td></tr>
+<tr><td align="right">San Leandro</td><td>352</td><td align="right">California</td><td align="right">10.3</td><td align="right">87965</td><td align="right">37.7249296, -122.1560768</td></tr>
+<tr><td align="right">Chino Hills</td><td>434</td><td align="right">California</td><td align="right">13.6</td><td align="right">76572</td><td align="right">33.9898188, -117.7325848</td></tr>
+<tr><td align="right">Yuba City</td><td>530</td><td align="right">California</td><td align="right">27.9</td><td align="right">65416</td><td align="right">39.1404477, -121.6169108</td></tr>
+<tr><td align="right">San Ramon</td><td>449</td><td align="right">California</td><td align="right">65.8</td><td align="right">74513</td><td align="right">37.7799273, -121.9780153</td></tr>
+<tr><td align="right">Danbury</td><td>380</td><td align="right">Connecticut</td><td align="right">11.4</td><td align="right">83684</td><td align="right">41.394817, -73.4540111</td></tr>
+<tr><td align="right">Chico</td><td>350</td><td align="right">California</td><td align="right">14.2</td><td align="right">88077</td><td align="right">39.7284944, -121.8374777</td></tr>
+<tr><td align="right">Weston</td><td>497</td><td align="right">Florida</td><td align="right">34.5</td><td align="right">68388</td><td align="right">26.1003654, -80.3997748</td></tr>
+<tr><td align="right">Troy</td><td>387</td><td align="right">Michigan</td><td align="right">2.2</td><td align="right">82821</td><td align="right">42.6064095, -83.1497751</td></tr>
+<tr><td align="right">Rancho Palos Verdes</td><td>867</td><td align="right">California</td><td align="right">2.9</td><td align="right">42448</td><td align="right">33.7444613, -118.3870173</td></tr>
+<tr><td align="right">East Lansing</td><td>772</td><td align="right">Michigan</td><td align="right">4.2</td><td align="right">48554</td><td align="right">42.7369792, -84.4838654</td></tr>
+<tr><td align="right">Calexico</td><td>940</td><td align="right">California</td><td align="right">44</td><td align="right">39389</td><td align="right">32.6789476, -115.4988834</td></tr>
+<tr><td align="right">Burnsville</td><td>572</td><td align="right">Minnesota</td><td align="right">1.9</td><td align="right">61434</td><td align="right">44.7677424, -93.2777226</td></tr>
+<tr><td align="right">Rosemead</td><td>672</td><td align="right">California</td><td align="right">1.7</td><td align="right">54561</td><td align="right">34.0805651, -118.072846</td></tr>
+<tr><td align="right">Shelton</td><td>892</td><td align="right">Connecticut</td><td align="right">7.3</td><td align="right">40999</td><td align="right">41.3164856, -73.0931641</td></tr>
+<tr><td align="right">Shakopee</td><td>948</td><td align="right">Minnesota</td><td align="right">85.7</td><td align="right">39167</td><td align="right">44.7973962, -93.5272861</td></tr>
+<tr><td align="right">Redmond</td><td>627</td><td align="right">Washington</td><td align="right">26</td><td align="right">57530</td><td align="right">47.6739881, -122.121512</td></tr>
+<tr><td align="right">Poway</td><td>755</td><td align="right">California</td><td align="right">2.4</td><td align="right">49417</td><td align="right">32.9628232, -117.0358646</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </article>
+    </div>
+    <!-- End of container -->
+
+   
+
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+
+</html>
